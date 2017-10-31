@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Modern Business - Start Bootstrap Template</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/modern-business.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/footer-distributed-with-address-and-phones.css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="amchartsMap/node_modules/ammap3/ammap/ammap.css" type="text/css">
+    <link rel="stylesheet" href="style.css" type="text/css">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <script src="amchartsMap/node_modules/ammap3/ammap/ammap.js" type="text/javascript"></script>
+    <!-- map file should be included after ammap.js -->
+    <script src="amchartsMap/node_modules/ammap3/ammap/maps/js/moldovaLow.js" type="text/javascript"></script>
+    <script src="amchartsMap/MoldovaMap.js" type="text/javascript"></script>
+
+</head>
+
+<body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">Portal</a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="index.html">Acasă</a>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Învățămînt <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="primar.html">Primar</a>
+                        </li>
+                        <li>
+                            <a href="gimnazial.html">Gimnazial</a>
+                        </li>
+                        <li>
+                            <a href="liceal.html">Liceal</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Elevi <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="primar.html">Olimpiade</a>
+                        </li>
+                        <li>
+                            <a href="gimnazial.html">Proiecte</a>
+                        </li>
+                        <li>
+                            <a href="liceal.html">Concursuri</a>
+                        </li>
+                        <li>
+                            <a href="four-page.html">Cursuri</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Profesori <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="primar.html">Oportunități</a>
+                        </li>
+                        <li>
+                            <a href="gimnazial.html">Proiecte</a>
+                        </li>
+                        <li>
+                            <a href="liceal.html">Concursuri</a>
+                        </li>
+                        <li>
+                            <a href="four-page.html">Curiculum</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Altele<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="calendar.html">Calendar</a>
+                        </li>
+                        <li>
+                            <a href="sidebar.html">Forum</a>
+                        </li>
+                        <li>
+                            <a href="blog-home-1.html">Bloguri profesori</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+
+<!-- Page Content -->
+    <div class="container">
+
+        <!-- Page Heading/Breadcrumbs -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">Pricing Table
+                    <small>Subheading</small>
+                </h1>
+                <ol class="breadcrumb">
+                    <li><a href="index.html">Home</a>
+                    </li>
+                    <li class="active">Pricing Table</li>
+                </ol>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <!-- Content Row -->
+        <div class="row">
+            <div class="col-md-4">
+                <div class="panel panel-default text-center">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Basic</h3>
+                    </div>
+                    <div class="panel-body">
+                        <span class="price"><sup>$</sup>19<sup>99</sup></span>
+                        <span class="period">per month</span>
+                    </div>
+                    <ul class="list-group">
+                        <li class="list-group-item"><strong>1</strong> User</li>
+                        <li class="list-group-item"><strong>5</strong> Projects</li>
+                        <li class="list-group-item"><strong>Unlimited</strong> Email Accounts</li>
+                        <li class="list-group-item"><strong>10GB</strong> Disk Space</li>
+                        <li class="list-group-item"><strong>100GB</strong> Monthly Bandwidth</li>
+                        <li class="list-group-item"><a href="#" class="btn btn-primary">Sign Up!</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="panel panel-primary text-center">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Plus <span class="label label-success">Best Value</span></h3>
+                    </div>
+                    <div class="panel-body">
+                        <span class="price"><sup>$</sup>39<sup>99</sup></span>
+                        <span class="period">per month</span>
+                    </div>
+                    <ul class="list-group">
+                        <li class="list-group-item"><strong>10</strong> User</li>
+                        <li class="list-group-item"><strong>500</strong> Projects</li>
+                        <li class="list-group-item"><strong>Unlimited</strong> Email Accounts</li>
+                        <li class="list-group-item"><strong>1000GB</strong> Disk Space</li>
+                        <li class="list-group-item"><strong>10000GB</strong> Monthly Bandwidth</li>
+                        <li class="list-group-item"><a href="#" class="btn btn-primary">Sign Up!</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="panel panel-default text-center">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Ultra</h3>
+                    </div>
+                    <div class="panel-body">
+                        <span class="price"><sup>$</sup>159<sup>99</sup></span>
+                        <span class="period">per month</span>
+                    </div>
+                    <ul class="list-group">
+                        <li class="list-group-item"><strong>Unlimted</strong> Users</li>
+                        <li class="list-group-item"><strong>Unlimited</strong> Projects</li>
+                        <li class="list-group-item"><strong>Unlimited</strong> Email Accounts</li>
+                        <li class="list-group-item"><strong>10000GB</strong> Disk Space</li>
+                        <li class="list-group-item"><strong>Unlimited</strong> Monthly Bandwidth</li>
+                        <li class="list-group-item"><a href="#" class="btn btn-primary">Sign Up!</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <hr>
+    </div>
+<!-- /.container -->
+
+        <!-- Footer -->
+        <footer>
+            <div class="footer" id="footer">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-2"></div>
+                        <div class="col-md-5">
+                            <h3> WEB SITE </h3>
+                            <ul>
+                                <li> <a href="#"> Acasă </a> </li>
+                                <li> <a href="#"> Blog </a> </li>
+                                <li> <a href="#"> Despre noi </a> </li>
+                            </ul>
+                        </div>
+
+                        <div class="col-md-3 ">
+                            <h3> Contacte </h3>
+                            <ul>
+                                <li>
+                                    <div class="input-append newsletter-box text-center">
+                                        <input type="text" class="full text-center" placeholder="Email ">
+                                        <button class="btn  bg-gray" type="button"> Trimite email <i class="fa fa-long-arrow-right"> </i> </button>
+                                    </div>
+                                </li>
+                            </ul>
+                            <ul class="social">
+                                <li> <a href="#"> <i class=" fa fa-facebook">   </i> </a> </li>
+                                <li> <a href="#"> <i class="fa fa-twitter">   </i> </a> </li>
+                                <li> <a href="#"> <i class="fa fa-google-plus">   </i> </a> </li>
+                                <li> <a href="#"> <i class="fa fa-pinterest">   </i> </a> </li>
+                                <li> <a href="#"> <i class="fa fa-youtube">   </i> </a> </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--/.row-->
+                </div>
+                <!--/.container-->
+            </div>
+            <!--/.footer-->
+
+            <div class="footer-bottom">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-2"></div>
+                        <div class="col-lg-8">
+                            <p class="pull-left"> Copyright © Portal Educational. All right reserved. </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!--/.footer-bottom-->
+        </footer>
+
+
+
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
